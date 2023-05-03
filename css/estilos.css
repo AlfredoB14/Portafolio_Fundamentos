@@ -1,5 +1,5 @@
 .menu {
-    background: #335aa2;
+    background: #3e3f40;
     height: 4rem;
   }
   .menu ol {
@@ -46,7 +46,7 @@
   }
   .sub-menu .menu-item {
     padding: 0.75rem 0;
-    background: #335aa2;
+    background: #3e3f40;
     opacity: 0;
     transform-origin: bottom;
     animation: enter 0.2s ease forwards;
@@ -64,7 +64,7 @@
     animation-delay: 0.2s;
   }
   .sub-menu .menu-item:hover {
-    background: #5372ac;
+    background: #6c6e6f;
   }
   .sub-menu .menu-item a {
     padding: 0 0.75rem;
@@ -160,10 +160,27 @@
   html, body {
     font-size: 16px;
     font-family: "Fira Mono", monospace;
+    color: #2f2f2f;
     margin: 0;
-    background: #2A363B;
+    background: #c8c8c8;
   }
   
+  h1 {
+
+    font-size: 20px;
+    font-family: "Fira Mono", monospace;
+    color: #2f2f2f;
+    text-align: center;
+
+  }
+  h2 {
+
+    font-size: 20px;
+    font-family: "Fira Mono", monospace;
+    color: #2f2f2f;
+
+  }
+
   * {
     box-sizing: border-box;
   }
